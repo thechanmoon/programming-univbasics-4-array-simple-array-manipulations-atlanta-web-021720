@@ -1,9 +1,9 @@
-def using_push(array, string)
-  array.push(string)
+def using_push(array, element)
+  array.push(element)
 end
 
-def using_unshift(array, string)
-  array.unshift(string)
+def using_unshift(array, element)
+  array.unshift(element)
 end
 
 def using_pop()
@@ -38,11 +38,11 @@ def using_flatten(array)
   array.flatten()
 end
 
-def using_delete(array,string)
-  array.(string)
+def using_delete(array,element)
+  array.delete(element)
 end
 
-def using_delete_at(array)
-  #array.()
+def using_delete_at(array, index)
+  array.delete_at(array, index)
 end
 
